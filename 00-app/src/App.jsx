@@ -1,9 +1,9 @@
-import Lista from './components/Lista'
+import EventoForms from "./components/EventoForms"
 
 function App() {
   return (
     <>
-      <Lista></Lista>
+      <EventoForms></EventoForms>
     </>
   )
 }
