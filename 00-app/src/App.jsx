@@ -1,9 +1,10 @@
-import CardBotoes from "./components/CardBotoes"
+import Condicional from "./components/Condicional"
 
 function App() {
   return (
     <>
-      <CardBotoes></CardBotoes>
+     <h1>Renderização Condicional</h1>
+     <Condicional></Condicional>
     </>
   )
 }
