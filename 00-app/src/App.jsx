@@ -1,10 +1,9 @@
-import EventoForms from "./components/EventoForms"
+import CardBotoes from "./components/CardBotoes"
 
 function App() {
   return (
     <>
-      <h1>Testando Use State</h1>
-      <EventoForms></EventoForms>
+      <CardBotoes></CardBotoes>
     </>
   )
 }
