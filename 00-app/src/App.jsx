@@ -1,10 +1,14 @@
-import Condicional from "./components/Condicional"
+import RendeLista from "./components/RendeLista";
 
 function App() {
+
+  const itensLista = ['jogar', 'comer', 'dormir'];
+
   return (
     <>
-     <h1>Renderização Condicional</h1>
-     <Condicional></Condicional>
+     <h1>Renderização por lista</h1>
+      <RendeLista lista={itensLista}></RendeLista>
+      <RendeLista lista={[]}></RendeLista>
     </>
   )
 }
