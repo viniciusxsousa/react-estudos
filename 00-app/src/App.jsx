@@ -1,14 +1,17 @@
-import RendeLista from "./components/RendeLista";
+import { useState } from 'react'
+
+import DefNome from './components/DefNome';
+import Saudacao from './components/Saudacao';
 
 function App() {
 
-  const itensLista = ['jogar', 'comer', 'dormir'];
+  const [nome, setNome] = useState();
 
   return (
     <>
      <h1>Renderização por lista</h1>
-      <RendeLista lista={itensLista}></RendeLista>
-      <RendeLista lista={[]}></RendeLista>
+     <DefNome set={setNome}></DefNome>
+     <Saudacao nome={nome}></Saudacao>
     </>
   )
 }
