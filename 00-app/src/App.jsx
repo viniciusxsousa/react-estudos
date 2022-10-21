@@ -1,18 +1,14 @@
-import { useState } from 'react'
+import { BrowserRouter, Route, Routes, Link} from "react-router-dom"
 
-import DefNome from './components/DefNome';
-import Saudacao from './components/Saudacao';
+import Router from "./router"
+
 
 function App() {
 
-  const [nome, setNome] = useState();
-
   return (
-    <>
-     <h1>Renderização por lista</h1>
-     <DefNome set={setNome}></DefNome>
-     <Saudacao nome={nome}></Saudacao>
-    </>
+    <div>
+      <Router></Router>
+    </div>
   )
 }
 
